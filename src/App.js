@@ -4,12 +4,15 @@ import Welcome from './pages/Welcome';
 function App() {
     return (
         <>
-            <Route path="/welcome">
-                <Welcome />
-            </Route>
-            <Route path="/products">
-                <Products />
-            </Route>
+            <header></header>
+            <main>
+                <Route path="/welcome">
+                    <Welcome />
+                </Route>
+                <Route path="/products">
+                    <Products />
+                </Route>
+            </main>
         </>
     );
 }
